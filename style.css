@@ -1,0 +1,30 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(20, 20, 20);
+}
+#navbar {
+    padding: 2.2em;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+#baslik {
+    font-size: 3em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: white;
+    text-shadow: white 1px 2px 3px;
+}
+#list {
+    list-style-type: none;
+
+}
+#side-bar {
+    height: 100%;
+    background-color: black;
+    padding-left: 5em;
+    float: left;
+    margin-left: 5em;
+    width: 100%;
+}
