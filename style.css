@@ -1,30 +1,50 @@
 body {
     margin: 0 auto;
     padding: 0;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(26, 25, 25);
+    
+    
+
 }
 #navbar {
     padding: 2.2em;
     width: 100%;
     overflow: hidden;
     background-color: black;
-}
-#baslik {
-    font-size: 3em;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif ;
-    color: white;
-    text-shadow: white 1px 2px 3px;
+    border: ;
 }
-#list {
-    list-style-type: none;
+
+
+
+#a {
+    list-style-type: none; 
+    margin: 0;
+    padding:0;
 
 }
-#side-bar {
+.wrapper {
+    display: flex;
+    position: relative;
+}
+.wrapper .side-bar {
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    background: black;
+    padding: 30px;
     height: 100%;
-    background-color: black;
-    padding-left: 5em;
-    float: left;
-    margin-left: 5em;
-    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    
+}
+h1 {
+    text-align: center;
+    text-shadow: 1px 2px 3px white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper .side-bar .ul .li {
+    padding: 15px;
+
 }
