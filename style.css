@@ -1,21 +1,25 @@
 body {
     margin: 0 auto;
     padding: 0;
-    background-color: rgb(26, 25, 25);
-    
-    
+    background-color: rgb(24, 24, 24);
+    height: auto;
 
 }
+
 #navbar {
     padding: 2.2em;
     width: 100%;
     overflow: hidden;
     background-color: black;
     text-align: center;
-    border: ;
 }
 
+a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 2px 3px white
 
+}
 
 #a {
     list-style-type: none; 
@@ -36,15 +40,31 @@ body {
     height: 100%;
     text-transform: uppercase;
     margin-bottom: 30px;
-    
 }
+
 h1 {
-    text-align: center;
+    text-align: start;
     text-shadow: 1px 2px 3px white;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 .wrapper .side-bar .ul .li {
     padding: 15px;
+    border-bottom: 1px solid;
+}
 
+a:link {
+    color:rgb(248, 206, 206);
+}
+a:visited {
+    color:rgb(rgb(229, 162, 255))
+
+}
+a:hover {
+    color:rgb(66, 79, 248)
+}
+a:active{
+    color:rgb(255, 159, 159)
 }
